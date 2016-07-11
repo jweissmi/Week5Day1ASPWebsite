@@ -15,7 +15,7 @@ namespace Week5Day1ASPWebsite.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "What we do.";
 
             return View();
         }
