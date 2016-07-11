@@ -15,16 +15,17 @@ namespace Week5Day1ASPWebsite.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "What we do.";
+            ViewBag.Message = "What we do";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "MOTOR Information Systems";
 
             return View();
         }
+
     }
 }
